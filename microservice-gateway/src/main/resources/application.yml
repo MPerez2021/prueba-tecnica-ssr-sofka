@@ -1,0 +1,30 @@
+server:
+  port: 8080
+
+spring:
+  config:
+    import: optional:configserver:http://localhost:8888
+
+  application:
+    name: msvc-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+
+      routes:
+        - id: group-one
+          uri: http://localhost:8090
+          predicates:
+            - Path=/clients/**
+
+        - id: group-two
+          uri: http://localhost:8091
+          predicates:
+            - Path=/accounts/**, /reports/**, /transactions/**
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
