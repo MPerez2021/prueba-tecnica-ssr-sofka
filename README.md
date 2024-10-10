@@ -19,6 +19,6 @@ Este es un proyecto de prueba técnica desarrollado para Sofka. El objetivo del 
 - **src/main/resources**: Contiene archivos de configuración y otros recursos.
 - **src/test/java**: Contiene pruebas unitarias y de integración.
 
-## Colección JSON
+## Colección Postman
 
 https://drive.google.com/file/d/1UaszG-9lpTokSrdvjgpDhdWzcG9yRYoM/view?usp=sharing
