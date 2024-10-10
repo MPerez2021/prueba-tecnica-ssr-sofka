@@ -6,7 +6,7 @@ Este es un proyecto de prueba técnica desarrollado para Sofka. El objetivo del 
 
 ## Tecnologías Utilizadas
 
-- **Java 11/17**
+- **Java 17**
 - **Spring Boot**
 - **Spring Cloud**
 - **PostgreSQL**
